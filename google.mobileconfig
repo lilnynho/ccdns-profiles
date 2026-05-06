@@ -1,0 +1,33 @@
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.google/dns-query</string>
+            </dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ccdns.google</string>
+            <key>PayloadUUID</key>
+            <string>22222222-2222-2222-2222-222222222222</string>
+            <key>PayloadDisplayName</key>
+            <string>Google DNS</string>
+        </dict>
+    </array>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ccdns.google.profile</string>
+    <key>PayloadUUID</key>
+    <string>BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB</string>
+    <key>PayloadDisplayName</key>
+    <string>CCDNS - Google</string>
+</dict>
+</plist>

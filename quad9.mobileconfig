@@ -1,0 +1,33 @@
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.quad9.net/dns-query</string>
+            </dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ccdns.quad9</string>
+            <key>PayloadUUID</key>
+            <string>33333333-3333-3333-3333-333333333333</string>
+            <key>PayloadDisplayName</key>
+            <string>Quad9 DNS</string>
+        </dict>
+    </array>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ccdns.quad9.profile</string>
+    <key>PayloadUUID</key>
+    <string>CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC</string>
+    <key>PayloadDisplayName</key>
+    <string>CCDNS - Quad9</string>
+</dict>
+</plist>
