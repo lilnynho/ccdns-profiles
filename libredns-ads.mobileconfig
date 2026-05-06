@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
+    <key>PayloadIdentifier</key>
+    <string>com.lilnynho.dns.libredns.ads</string>
+
+    <key>PayloadUUID</key>
+    <string>7A1F9C20-5B44-4E21-9F33-8C2D1E7A9B55</string>
+
+    <key>PayloadDisplayName</key>
+    <string>LibreDNS (Block Ads/Trackers)</string>
+
+    <key>PayloadDescription</key>
+    <string>Bloqueia anúncios e rastreadores usando LibreDNS</string>
+
+    <key>PayloadOrganization</key>
+    <string>Lilnynho</string>
+
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <key>PayloadIdentifier</key>
+            <string>com.lilnynho.dns.libredns.ads.payload</string>
+
+            <key>PayloadUUID</key>
+            <string>91D3E6B4-8C55-4A3D-BB11-2F7E9C0D4E88</string>
+
+            <key>PayloadDisplayName</key>
+            <string>LibreDNS Ads</string>
+
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+
+                <key>ServerURL</key>
+                <string>https://doh.libredns.gr/ads</string>
+            </dict>
+
+        </dict>
+    </array>
+
+</dict>
+</plist>
