@@ -1,33 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>PayloadContent</key>
-    <array>
-        <dict>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerURL</key>
-                <string>https://doh.libredns.gr/dns-query</string>
-            </dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadIdentifier</key>
-            <string>com.ccdns.libredns</string>
-            <key>PayloadUUID</key>
-            <string>55555555-5555-5555-5555-555555555555</string>
-            <key>PayloadDisplayName</key>
-            <string>LibreDNS</string>
-        </dict>
-    </array>
 
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadIdentifier</key>
-    <string>com.ccdns.libredns.profile</string>
-    <key>PayloadUUID</key>
-    <string>EEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE</string>
-    <key>PayloadDisplayName</key>
-    <string>CCDNS - LibreDNS</string>
+<key>PayloadType</key><string>Configuration</string>
+<key>PayloadVersion</key><integer>1</integer>
+<key>PayloadIdentifier</key><string>com.lilnynho.dns.libredns</string>
+<key>PayloadUUID</key><string>55555555-1111-1111-1111-111111111111</string>
+<key>PayloadDisplayName</key><string>LibreDNS</string>
+
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>PayloadType</key><string>com.apple.dnsSettings.managed</string>
+<key>PayloadVersion</key><integer>1</integer>
+<key>PayloadIdentifier</key><string>libre.settings</string>
+<key>PayloadUUID</key><string>55555555-2222-3333-4444-555555555555</string>
+
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key><string>HTTPS</string>
+<key>ServerURL</key><string>https://doh.libredns.gr/dns-query</string>
+</dict>
+
+</dict>
+</array>
+
 </dict>
 </plist>
